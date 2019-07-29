@@ -29,8 +29,13 @@ some description...
 
 ## API
 
+ 集成 `bee-upload` 属性，[参考地址](http://bee.tinper.org/tinper-bee/bee-upload)，除 `showUploadList`、`onRemove` 以外，都可用
+
 |参数|说明|类型|默认值|
-|:--|:---:|:--:|---:|
+|:---|:-----|:----|:------|
+|placeholder|上传组件显示的内容|string|-|
+|files|文件列表| ary |-|
+|onRemove|删除的回调| func |-|
 
 #### 开发调试
 
